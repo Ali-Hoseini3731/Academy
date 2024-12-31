@@ -1,6 +1,6 @@
 from django.urls import path
-from catalogue.views import list_catalogue
+from catalogue.views import catalogue_list
 
 urlpatterns = [
-    path('list/', list_catalogue),
+    path('list/', catalogue_list),
 ]
